@@ -1,0 +1,13 @@
+package eclipse_alura_aulas;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class main {
+
+	public static void main(String[] args) {
+		Calendar data = new	GregorianCalendar(21, 02, 2000);
+		new Funcionario("Jubileu", 25, null)
+	}
+
+}

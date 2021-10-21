@@ -1,0 +1,39 @@
+package eclipse_alura_aulas;
+
+public class Funcionario {
+	
+	private String name;
+	private int matricula;
+	private String data;
+	
+	public Funcionario(String name, int mat, String data) {
+		this.name = name;
+		this.matricula = mat;
+		this.data = data;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
+	}
+
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+	
+}
