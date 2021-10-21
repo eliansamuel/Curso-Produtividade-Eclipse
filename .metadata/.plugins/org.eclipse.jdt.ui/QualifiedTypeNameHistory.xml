@@ -4,8 +4,11 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="eclipse_alura_aulas.Funcionario"/>
-    <fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.Funcionario"/>
     <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
-    <fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.Gasto"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.Funcionario"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
+    <fullyQualifiedTypeName name="br.com.caelum.empresa.modelo.Gasto"/>
 </qualifiedTypeNameHistroy>

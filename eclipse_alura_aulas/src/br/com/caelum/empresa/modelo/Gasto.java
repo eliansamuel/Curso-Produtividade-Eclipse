@@ -7,20 +7,18 @@ public class Gasto {
 	private String tipo;
     private Funcionario funcionario;
 	private Calendar data;
-	private boolean PagoEmDinheiro;
 	
 	@Override
 	public String toString() {
 		return "O gasto foi de R$ " + valor + " de " + tipo + " do " + funcionario;
 	}
 	
-	public Gasto(double valor, String tipo, Funcionario funcionario, Calendar data, boolean PagoEmDinheiro) {
+	public Gasto(double valor, String tipo, Funcionario funcionario, Calendar data) {
 		super();
 		this.valor = valor;
 		this.tipo = tipo;
 		this.funcionario = funcionario;
 		this.data = data;
-		this.PagoEmDinheiro = PagoEmDinheiro;
 		}
 	
 	public double getValor() {
@@ -47,13 +45,4 @@ public class Gasto {
 	public void setData(Calendar data) {
 		this.data = data;
 	}
-
-	public boolean isPagoEmDinheiro() {
-		return PagoEmDinheiro;
-	}
-
-	public void setPagoEmDinheiro(boolean pagoEmDinheiro) {
-		PagoEmDinheiro = pagoEmDinheiro;
-	}
-	
 }

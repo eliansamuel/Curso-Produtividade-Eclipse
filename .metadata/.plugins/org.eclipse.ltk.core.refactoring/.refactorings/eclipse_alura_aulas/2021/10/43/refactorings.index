@@ -7,3 +7,11 @@
 1634760511132	Rename type 'main'
 1634761554693	Extract local variable 'data2'
 1634761605369	Extract local variable 'data2'
+1634842352542	Rename local variable 'tp'
+1634842418254	Rename local variable 'dt'
+1634842449398	Rename local variable 'vl'
+1634842466473	Rename local variable 'mat'
+1634842505218	Rename type 'Importador'
+1634843068630	Extract method 'converteDataTxtParaCalendar'
+1634843564546	Rename type 'ImportadorDeGastos'
+1634843949071	Delete element

@@ -12,9 +12,9 @@ public class TestaGasto {
 		Funcionario funcionario = new Funcionario("Mateus", 30, data);
 		
 		Calendar hoje = Calendar.getInstance();
-		Gasto gasto1 = new Gasto(40, "taxi", funcionario, hoje, true);
-		Gasto gasto2 = new Gasto(200, "taxi", funcionario, hoje, false);
-		Gasto gasto3 = new Gasto(45, "taxi", funcionario, hoje, true);
+		Gasto gasto1 = new Gasto(40, "taxi", funcionario, hoje);
+		Gasto gasto2 = new Gasto(200, "taxi", funcionario, hoje);
+		Gasto gasto3 = new Gasto(45, "taxi", funcionario, hoje);
 		System.out.println(gasto1);
 		System.out.println(gasto2);
 		System.out.println(gasto3);		
