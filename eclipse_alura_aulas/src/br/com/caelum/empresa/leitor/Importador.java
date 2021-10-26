@@ -12,9 +12,9 @@ public class Importador {
 
 	private SimpleDateFormat df = new SimpleDateFormat("ddMMyyyy");
 	
-	public List<Gasto> importa(InputStream entrada) throws ParseException {
+	public Collection<Gasto> importa(InputStream entrada) throws ParseException {
 		Scanner leitor = new Scanner(entrada);
-		List<Gasto> gastos = new ArrayList<Gasto>();
+		Set<Gasto> gastos = new LinkedHashSet<Gasto>();
 		
 		while (leitor.hasNextLine()) {
 			String line = leitor.nextLine();
